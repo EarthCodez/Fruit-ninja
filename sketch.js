@@ -24,7 +24,7 @@ fruitGroup=createGroup();
   enygrp=createGroup();
 sword=createSprite(300,200,20,20);
 sword.addImage(swordimg);
-sword.scale=0.6;
+sword.scale=0.5;
   sword.debug=true;
 }
 function draw(){
@@ -128,7 +128,7 @@ function Enemy(){
     }
     if(score>10){
     enemy.addAnimation("enemy",enemyan);
-    enemy.scale=0.6;
+    enemy.scale=0.8;
     enygrp.add(enemy);
     enemy.lifetime=45;
     switch(lr){
