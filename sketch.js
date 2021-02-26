@@ -25,7 +25,6 @@ fruitGroup=createGroup();
 sword=createSprite(300,200,20,20);
 sword.addImage(swordimg);
 sword.scale=0.5;
-  sword.debug=true;
 }
 function draw(){
   background('lightBlue');
